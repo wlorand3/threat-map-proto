@@ -1,0 +1,44 @@
+/**
+  * File: global-styles.css
+  * Desc: app-level styles (and fonts)
+  */
+
+@font-face {
+  font-family: "TrainOne";
+  src: url("../assets/fonts/TrainOne/TrainOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "TrainOne", cursive;
+}
+
+.map-header {
+  align-items: center;
+  background-color: rgb(160, 160, 160);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.map-header > h1 {
+  margin: 10px 20px;
+  padding: 0;
+}
