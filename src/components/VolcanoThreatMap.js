@@ -6,7 +6,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from "leaflet";
 
 // data
-import * as volcanoData from '../data/globalVolcanoesGeojson.json';
+import * as volcanoData from '../data/global_volcanoes.geo.json';
 
 // styles
 import 'leaflet/dist/leaflet.css'; // required lib styles
