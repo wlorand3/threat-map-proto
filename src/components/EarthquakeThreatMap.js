@@ -32,11 +32,24 @@ function EarthquakeThreatMap() {
     // local component state
     const [activeEarthquake, setActiveEarthquake] = useState(null); 
 
+    // custom cluster icon (note: api does not support js arrow fxns here)
+    const createCustomClusterIcon = function (cluster) {
+ 		 return new DivIcon({
+    		html: `<span>${cluster.getChildCount()}</span>`,
+    		className: 'custom-cluster-marker',
+    		iconSize: [40, 40],
+  			});
+		}
+
+
     return (
         <div className="leaflet-container">
             <MapContainer center={worldCenter} zoom={initialZoom} minZoom={initialZoom} scrollWheelZoom={false}>
                 <TileLayer url={darkTileUrl} attribution={darkTileAttr} />
-                    <MarkerClusterGroup>
+                    <MarkerClusterGroup
+                       showCoverageOnHover={true}
+                    //    iconCreateFunction={createCustomClusterIcon} 
+                    >
                         {earthquakeData.default.features.map( earthquake => 
                             <Marker 
                                 key={earthquake.geometry.id} 
