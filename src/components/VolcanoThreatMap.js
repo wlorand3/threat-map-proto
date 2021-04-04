@@ -4,18 +4,19 @@ import React, { useState } from 'react';
 // mapping libs
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from "leaflet";
+import MarkerClusterGroup from 'react-leaflet-markercluster';
 
 // data
 import * as volcanoData from '../data/global_volcanoes.geo.json';
 
 // styles
-import 'leaflet/dist/leaflet.css'; // required lib styles
-// import 'react-leaflet-markercluster/dist/styles.min.css'; // required lib styles
+import 'leaflet/dist/leaflet.css'; // required leaflet styles
+import 'react-leaflet-markercluster/dist/styles.min.css'; // required react-leaflet-markercluster styles
 import '../styles/volcano-threat-map.css'; 
 
 function VolcanoThreatMap() {
 
-    // test access of coord data
+    // access coord data
     console.log(`feature count: ${volcanoData.default.features.length}`)
 
     // prop vars
@@ -35,21 +36,23 @@ function VolcanoThreatMap() {
         <div className="leaflet-container">
             <MapContainer center={worldCenter} zoom={initialZoom} minZoom={initialZoom} scrollWheelZoom={false}>
                 <TileLayer url={darkTileUrl} attribution={darkTileAttr} />
-                {volcanoData.default.features.map( volcano => 
-                    <Marker 
-                        key={volcano.properties.Volcano_Number} 
-                        position={[
-                            volcano.geometry.coordinates[1], // lng
-                            volcano.geometry.coordinates[0] // lat
-                        ]}
-                        icon={volcanoIcon}
-                        eventHandlers={{
-                            click: () => {
-                              setActiveVolcano(volcano);
-                            },
-                          }}
-                         />
-                    )}
+                    <MarkerClusterGroup>
+                        {volcanoData.default.features.map( volcano => 
+                            <Marker 
+                                key={volcano.properties.Volcano_Number} 
+                                position={[
+                                    volcano.geometry.coordinates[1], // lng
+                                    volcano.geometry.coordinates[0] // lat
+                                ]}
+                                icon={volcanoIcon}
+                                eventHandlers={{
+                                    click: () => {
+                                        setActiveVolcano(volcano);
+                                    },
+                                }}
+                            />
+                        )}
+                    </MarkerClusterGroup>
                     {activeVolcano && (
                         <Popup
                             position={[
