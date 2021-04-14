@@ -1,21 +1,23 @@
 // react
-import React from 'react';
+import React from "react";
 
 // components
 // import VolcanoThreatMap from './components/VolcanoThreatMap';
-import EarthquakeThreatMap from './components/EarthquakeThreatMap';
+// import EarthquakeThreatMap from "./components/EarthquakeThreatMap";
+import EmailThreatMap from "./components/EmailThreatMap";
 
 // styles
-import './styles/global-styles.css';
+import "./styles/global-styles.css";
 
 function App() {
   return (
     <>
       <header className="map-header">
-         <h1>Earthquake Threat Map</h1>
+        <h1>Email Spam &amp; Malware Threat Map</h1>
       </header>
       {/* <VolcanoThreatMap /> */}
-      <EarthquakeThreatMap />
+      {/* <EarthquakeThreatMap /> */}
+      <EmailThreatMap />
     </>
   );
 }

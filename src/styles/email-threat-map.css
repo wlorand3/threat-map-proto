@@ -1,0 +1,27 @@
+/**
+  * File: earthquake-threat-map.css
+  * Desc: component-level styles for EarthquakeThreatMap
+  */
+
+/* give your leaflet map a height to render (class must be called leaflet-container to avoid render bug - yikes!) */
+.leaflet-container {
+  height: 88vh;
+  width: 100%;
+}
+
+.earthquake-div-icon {
+  background: red;
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.custom-cluster-marker {
+  background-color: greenyellow;
+  border-radius: 50%;
+  font-size: 26px;
+  text-align: center;
+}
+
+.marker-popup {
+  font-family: "Roboto", sans-serif;
+}
