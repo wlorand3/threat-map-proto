@@ -38,15 +38,6 @@ function EmailThreatMap() {
   // local component state
   const [activeEmailThreat, setActiveEmailThreat] = useState(null);
 
-  // custom cluster icon tease (note: api does not support js arrow fxns here)
-  //   const createCustomClusterIcon = function (cluster) {
-  //     return new DivIcon({
-  //       html: `<span>${cluster.getChildCount()}</span>`,
-  //       className: "custom-cluster-marker",
-  //       iconSize: [40, 40],
-  //     });
-  //   };
-
   return (
     <div className="leaflet-container">
       <MapContainer
@@ -55,7 +46,7 @@ function EmailThreatMap() {
         minZoom={initialZoom}
         scrollWheelZoom={false}
       >
-        <TileLayer url={liteTileUrl} attribution={stadiaTileAttr} />
+        <TileLayer url={darkTileUrl} attribution={stadiaTileAttr} />
         {/* <MarkerClusterGroup
           showCoverageOnHover={true}
           //    iconCreateFunction={createCustomClusterIcon}
