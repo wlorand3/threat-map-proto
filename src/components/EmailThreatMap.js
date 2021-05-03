@@ -47,43 +47,6 @@ function EmailThreatMap() {
         scrollWheelZoom={false}
       >
         <TileLayer url={darkTileUrl} attribution={stadiaTileAttr} />
-        {/* <MarkerClusterGroup
-          showCoverageOnHover={true}
-          //    iconCreateFunction={createCustomClusterIcon}
-        >
-          {earthquakeData.default.features.map(earthquake => (
-            <Marker
-              key={earthquake.geometry.id}
-              position={[
-                earthquake.geometry.coordinates[1], // lng
-                earthquake.geometry.coordinates[0], // lat
-              ]}
-              icon={earthquakeIcon}
-              eventHandlers={{
-                click: () => {
-                  setActiveEarthquake(earthquake);
-                },
-              }}
-            />
-          ))}
-        </MarkerClusterGroup>
-        {activeEarthquake && (
-          <Popup
-            position={[
-              activeEarthquake.geometry.coordinates[1], // lng
-              activeEarthquake.geometry.coordinates[0], // lat
-            ]}
-            onClose={() => {
-              setActiveEarthquake(null);
-            }}
-          >
-            <div>
-              <h4 className="marker-popup">
-                {activeEarthquake.properties.title}
-              </h4>
-            </div>
-          </Popup>
-        )} */}
       </MapContainer>
     </div>
   );

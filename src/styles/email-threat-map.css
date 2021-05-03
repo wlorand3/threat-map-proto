@@ -15,13 +15,6 @@
   border-radius: 50%;
 }
 
-.custom-cluster-marker {
-  background-color: greenyellow;
-  border-radius: 50%;
-  font-size: 26px;
-  text-align: center;
-}
-
 .marker-popup {
   font-family: "Roboto", sans-serif;
 }

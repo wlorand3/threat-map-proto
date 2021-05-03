@@ -4,7 +4,8 @@ import React from "react";
 // components
 // import VolcanoThreatMap from './components/VolcanoThreatMap';
 // import EarthquakeThreatMap from "./components/EarthquakeThreatMap";
-import EmailThreatMap from "./components/EmailThreatMap";
+// import EmailThreatMap from "./components/EmailThreatMap";
+import FlyToTheMoon from "./components/FlyToTheMoon";
 
 // styles
 import "./styles/global-styles.css";
@@ -17,7 +18,8 @@ function App() {
       </header>
       {/* <VolcanoThreatMap /> */}
       {/* <EarthquakeThreatMap /> */}
-      <EmailThreatMap />
+      {/* <EmailThreatMap /> */}
+      <FlyToTheMoon />
     </>
   );
 }

@@ -42,3 +42,8 @@ h3 {
   margin: 10px 20px;
   padding: 0;
 }
+
+.leaflet-container {
+  height: 88vh;
+  width: 100%;
+}
