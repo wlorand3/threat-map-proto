@@ -59,8 +59,8 @@ function EarthquakeThreatMap() {
             <Marker
               key={earthquake.geometry.id}
               position={[
-                earthquake.geometry.coordinates[1], // lng
-                earthquake.geometry.coordinates[0], // lat
+                earthquake.geometry.coordinates[1], // lat
+                earthquake.geometry.coordinates[0], // lng
               ]}
               icon={earthquakeIcon}
               eventHandlers={{

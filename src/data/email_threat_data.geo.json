@@ -1,0 +1,570 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1620224320864,
+    "title": "Email Threat Data Example - Scraped from Talos",
+    "count": 20
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.5848, 45.4995]
+      },
+      "properties": {
+        "id": 1001,
+        "ip_address": "198.27.100.155",
+        "hostname": "cloud.joaopessoabairros.com.br",
+        "volume": 7.53202,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6843, 50.1188]
+      },
+      "properties": {
+        "id": 1002,
+        "ip_address": "45.148.10.190",
+        "hostname": "smtpq3.tb.ukmail.iss.as9143.net",
+        "volume": 7.19875,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.0004, 37.5625]
+      },
+      "properties": {
+        "id": 1003,
+        "ip_address": "23.239.2.211",
+        "hostname": "mail.tryninja.io",
+        "volume": 6.81192,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9869, 37.5949]
+      },
+      "properties": {
+        "id": 1004,
+        "ip_address": "61.106.26.247",
+        "hostname": "correo1.hostingroup.com",
+        "volume": 6.76968,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.214, 41.1631]
+      },
+      "properties": {
+        "id": 1005,
+        "ip_address": "154.53.132.63",
+        "hostname": "dns13263.phdns4.es",
+        "volume": 6.67954,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.2397, 58.0041]
+      },
+      "properties": {
+        "id": 1006,
+        "ip_address": "212.120.187.174",
+        "hostname": "office.permpharm.ru",
+        "volume": 6.62336,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.2591, 53.3382]
+      },
+      "properties": {
+        "id": 1007,
+        "ip_address": "54.72.159.203",
+        "hostname": "serv2.edimicros.net",
+        "volume": 6.57152,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5683, 48.1663]
+      },
+      "properties": {
+        "id": 1008,
+        "ip_address": "94.199.88.101",
+        "hostname": "mailout03.rmx.de",
+        "volume": 6.55266,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.8183, 50.4325]
+      },
+      "properties": {
+        "id": 1009,
+        "ip_address": "212.227.17.13",
+        "hostname": "mout.kundenserver.de",
+        "volume": 6.48416,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.5848, 45.4995]
+      },
+      "properties": {
+        "id": 1010,
+        "ip_address": "158.69.83.225",
+        "hostname": "alt2.mymailcheap.com",
+        "volume": 6.45353,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.0422, 44.4117]
+      },
+      "properties": {
+        "id": 1011,
+        "ip_address": "185.96.160.136",
+        "hostname": "smtp2.citasyencuentros-email.eu",
+        "volume": 6.44154,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.6171, 35.5157]
+      },
+      "properties": {
+        "id": 1012,
+        "ip_address": "156.110.34.158",
+        "hostname": "smtp3.compucom.com",
+        "volume": 5.79842,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8296, -6.1741]
+      },
+      "properties": {
+        "id": 1013,
+        "ip_address": "122.102.40.26",
+        "hostname": "ns2.agrobogautama.co.id",
+        "volume": 5.38395,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8966, 52.3429]
+      },
+      "properties": {
+        "id": 1014,
+        "ip_address": "185.222.57.227",
+        "hostname": "hosted-by.rootlayer.net",
+        "volume": 5.24212,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6581, 10.8326]
+      },
+      "properties": {
+        "id": 1015,
+        "ip_address": "103.133.108.155",
+        "hostname": "hp0.303.trtox.gq",
+        "volume": 5.1563,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-107.2299, 24.7475]
+      },
+      "properties": {
+        "id": 1016,
+        "ip_address": "187.141.128.42",
+        "hostname": "customer-sta.uninet-ide.com.mx",
+        "volume": 5.11418,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.5855, 12.9634]
+      },
+      "properties": {
+        "id": 1017,
+        "ip_address": "139.59.85.174",
+        "hostname": "bizcloud-server.solorifw.com",
+        "volume": 5.01525,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.9753, 37.3417]
+      },
+      "properties": {
+        "id": 1018,
+        "ip_address": "159.65.72.186",
+        "hostname": "hp0.304.trtox.gq",
+        "volume": 4.84419,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.2122, -33.8563]
+      },
+      "properties": {
+        "id": 1019,
+        "ip_address": "60.241.0.10",
+        "hostname": "rpt-glb-asav1.external.tpg.com.au",
+        "volume": 6.11014,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.4445, 40.7157]
+      },
+      "properties": {
+        "id": 1020,
+        "ip_address": "63.128.21.223",
+        "hostname": "us-smtp-delivery-223.mimecast.com",
+        "volume": 6.10277,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.5848, 46.4995]
+      },
+      "properties": {
+        "id": 1021,
+        "ip_address": "198.27.100.155",
+        "hostname": "cloud.joaopessoabairros.com.br",
+        "volume": 7.53202,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.6843, 51.1188]
+      },
+      "properties": {
+        "id": 1022,
+        "ip_address": "45.148.10.190",
+        "hostname": "smtpq3.tb.ukmail.iss.as9143.net",
+        "volume": 7.19875,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.0004, 38.5625]
+      },
+      "properties": {
+        "id": 1023,
+        "ip_address": "23.239.2.211",
+        "hostname": "mail.tryninja.io",
+        "volume": 6.81192,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.9869, 38.5949]
+      },
+      "properties": {
+        "id": 1024,
+        "ip_address": "61.106.26.247",
+        "hostname": "correo1.hostingroup.com",
+        "volume": 6.76968,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.214, 42.1631]
+      },
+      "properties": {
+        "id": 1025,
+        "ip_address": "154.53.132.63",
+        "hostname": "dns13263.phdns4.es",
+        "volume": 6.67954,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.2397, 59.0041]
+      },
+      "properties": {
+        "id": 1026,
+        "ip_address": "212.120.187.174",
+        "hostname": "office.permpharm.ru",
+        "volume": 6.62336,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.2591, 54.3382]
+      },
+      "properties": {
+        "id": 1027,
+        "ip_address": "54.72.159.203",
+        "hostname": "serv2.edimicros.net",
+        "volume": 6.57152,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5683, 49.1663]
+      },
+      "properties": {
+        "id": 1028,
+        "ip_address": "94.199.88.101",
+        "hostname": "mailout03.rmx.de",
+        "volume": 6.55266,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.8183, 51.4325]
+      },
+      "properties": {
+        "id": 1029,
+        "ip_address": "212.227.17.13",
+        "hostname": "mout.kundenserver.de",
+        "volume": 6.48416,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.5848, 46.4995]
+      },
+      "properties": {
+        "id": 1030,
+        "ip_address": "158.69.83.225",
+        "hostname": "alt2.mymailcheap.com",
+        "volume": 6.45353,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.0422, 45.4117]
+      },
+      "properties": {
+        "id": 1031,
+        "ip_address": "185.96.160.136",
+        "hostname": "smtp2.citasyencuentros-email.eu",
+        "volume": 6.44154,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.6171, 36.5157]
+      },
+      "properties": {
+        "id": 1032,
+        "ip_address": "156.110.34.158",
+        "hostname": "smtp3.compucom.com",
+        "volume": 5.79842,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.8296, -7.1741]
+      },
+      "properties": {
+        "id": 1033,
+        "ip_address": "122.102.40.26",
+        "hostname": "ns2.agrobogautama.co.id",
+        "volume": 5.38395,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.8966, 53.3429]
+      },
+      "properties": {
+        "id": 1034,
+        "ip_address": "185.222.57.227",
+        "hostname": "hosted-by.rootlayer.net",
+        "volume": 5.24212,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.6581, 11.8326]
+      },
+      "properties": {
+        "id": 1035,
+        "ip_address": "103.133.108.155",
+        "hostname": "hp0.303.trtox.gq",
+        "volume": 5.1563,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.2299, 25.7475]
+      },
+      "properties": {
+        "id": 1036,
+        "ip_address": "187.141.128.42",
+        "hostname": "customer-sta.uninet-ide.com.mx",
+        "volume": 5.11418,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.5855, 13.9634]
+      },
+      "properties": {
+        "id": 1037,
+        "ip_address": "139.59.85.174",
+        "hostname": "bizcloud-server.solorifw.com",
+        "volume": 5.01525,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.9753, 38.3417]
+      },
+      "properties": {
+        "id": 1038,
+        "ip_address": "159.65.72.186",
+        "hostname": "hp0.304.trtox.gq",
+        "volume": 4.84419,
+        "email_type": "spam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.2122, -34.8563]
+      },
+      "properties": {
+        "id": 1039,
+        "ip_address": "60.241.0.10",
+        "hostname": "rpt-glb-asav1.external.tpg.com.au",
+        "volume": 6.11014,
+        "email_type": "malware"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.4445, 41.7157]
+      },
+      "properties": {
+        "id": 1040,
+        "ip_address": "63.128.21.223",
+        "hostname": "us-smtp-delivery-223.mimecast.com",
+        "volume": 6.10277,
+        "email_type": "spam"
+      }
+    }
+  ]
+}
