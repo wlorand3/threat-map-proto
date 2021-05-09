@@ -9,12 +9,64 @@
   width: 100%;
 }
 
-.email-threat-div-icon {
+/* table styles: TODO: use sass nesting when port to tile */
+
+.threat-popup-table {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  width: 500px;
+}
+
+.threat-popup-table > td {
+  padding-right: 6px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-long {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell-hostname {
+  width: 120px;
+}
+
+.cell-email-type {
+  width: 85px;
+}
+
+.cell-email-type::before {
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  border-radius: 5px;
+  content: "";
+  display: inline-block;
+  margin: 2px 5px 0 0;
+}
+
+.cell-email-type__spam::before {
   background: orange;
+}
+
+.cell-email-type__malware::before {
+  background: red;
+}
+
+/* TODO: practice BEM, include Sass vars for colors */
+
+.threat-icon__spam {
+  background: orange; /* use color var */
   border: 2px solid rgb(255, 255, 255, 0.5);
   border-radius: 50%;
 }
 
-.marker-popup {
-  font-family: "Roboto", sans-serif;
+.threat-icon__malware {
+  background: red; /* use color var */
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
